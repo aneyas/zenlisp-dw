@@ -4,13 +4,13 @@
 
 V=	2
 
-PREFIX?=/usr/local
-BINOWN?=bin
-BINGRP?=bin
+PREFIX?=/usr
+BINOWN?=dwang
+BINGRP?=staff
 
 BINDIR=	$(PREFIX)/bin
 SHRDIR=	$(PREFIX)/share/zenlisp
-MANDIR=	$(PREFIX)/man/man1
+MANDIR=	$(PREFIX)/share/man/man1
 DOCDIR=	$(PREFIX)/share/doc/zenlisp
 IMAGE=	$(PREFIX)/share/zenlisp/zenlisp
 
